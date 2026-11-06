@@ -53,7 +53,7 @@ Confusion matrix (rows = true, columns = predicted):
 
 To understand the three missed defects, I generated Grad-CAM heatmaps showing which image regions drove the model's prediction. For all three, the strongest attention fell on the background and image edges rather than on the casting itself. This suggests the model may partly rely on framing or lighting cues instead of the defect.
 
-   ![Grad-CAM heatmaps for the three missed defects](images/gradcam_missed.png)
+   ![Grad-CAM heatmaps for the three missed defects](gradcam_missed.png)
    
 This analysis covers only three errors, so it's a starting point, not a conclusion. Checking correctly classified defects would show whether the model normally focuses on the part.
 
