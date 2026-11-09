@@ -1,4 +1,5 @@
 # casting-defect-detection
+   **Live demo:** https://casting-defect-detector.streamlit.app
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bokkaraj/casting-defect-detection/blob/main/casting_defect_resnet18.ipynb)
 
 ResNet18 classifier for casting defect detection on industrial impeller images (PyTorch)
